@@ -1,0 +1,102 @@
+.clear {
+	clear: both;
+}
+
+body {
+	background: #fffff9;
+	font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 微软雅黑, Verdana, sans-serif, 宋体;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 微软雅黑, Verdana, sans-serif, 宋体;
+}
+/***header**/
+.header{
+	width: 100%;
+	background-color: #f3f3f3;
+	border-bottom: 1px solid #DDD;
+}
+
+.header-wrapper{
+	width:1000px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.header .logo-img{
+	margin-top:10px;
+	float: left;
+	width:13%;
+	
+}
+
+.header .logo-img .logo-font{
+	white-space: nowrap;
+}
+
+.header .search-div{
+	margin-top:10px;
+	margin-left:10px;
+	float: left;
+	width: 50%;
+}
+
+.header .user-setting{
+	float: right;
+}
+
+
+/** footer **/
+.footer {
+	border-top: 1px solid #CCC;
+}
+
+.footer table {
+	margin-top: 8px;
+}
+
+/***蓝色字体***/
+.blue-font{
+	color:#0072C6;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.main{
+	margin-top: 10px;
+	width:1000px;
+	min-height: 530px;
+}
+
+.left{
+	float:left;
+	width:20%;
+	display: block;
+}
+
+.left .panel-body a:HOVER{
+	background-color: #DDD;
+}
+
+.middle .close-div{
+	float:left;
+	margin-top:50%;
+	height: 20px;
+	background-color: black;
+}
+
+.right{
+	margin-left:2%;
+	float:right;
+	width:78%;
+}
+
+.right-main-div{
+	min-height: 500px;
+}
+
+.big-font-a{
+	font-weight: 600;
+	color: #000 ! important;
+}

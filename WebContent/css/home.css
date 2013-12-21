@@ -1,0 +1,32 @@
+.main{
+	margin-top: 10px;
+	width:1000px;
+	min-height: 530px;
+}
+
+.left{
+	float:left;
+	width:20%;
+	display: block;
+}
+
+.left .panel-body a:HOVER{
+	background-color: #DDD;
+}
+
+.middle .close-div{
+	float:left;
+	margin-top:50%;
+	height: 20px;
+	background-color: black;
+}
+
+.right{
+	margin-left:2%;
+	float:right;
+	width:78%;
+}
+
+.right-main-div{
+	min-height: 500px;
+}
